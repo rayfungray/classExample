@@ -1,0 +1,134 @@
+nav
+{
+  margin: 14px 5px 5px 5px;
+}
+
+.navTab
+{
+  display:flex;
+  justify-content: center;
+  color:white;
+  background-color: black;
+  height:60px;
+
+}
+
+a:-webkit-any-link{
+  text-decoration:none !important;
+}
+
+nav a:visited
+{
+  color:white;
+  box-shadow: 0 0 0 3px orange;
+}
+
+nav a:hover
+{
+  color:#004890;
+  
+}
+
+
+.header
+{
+  width:102%;
+  background-color: black;
+  height: 660px;
+  margin-bottom: 2%;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: orange;
+  padding: 20px 70px;
+  font-size: 1em;
+}
+#content{  
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#Navitem {
+  margin: 30px;
+  font-weight: 900;
+  font-size: larger;
+}
+
+nav{
+  margin-top:21px;
+}
+
+.logo {
+  float:left;
+  max-width: 105px;
+  margin-right: 62px;
+}
+
+.content {
+  height:500px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  -webkit-box-shadow: 15px 20px 30px -8px rgba(71,69,71,0.54);
+  -moz-box-shadow: 15px 20px 30px -8px rgba(71,69,71,0.54);
+  box-shadow: 15px 20px 30px -8px rgba(71,69,71,0.54);
+}
+
+.card:hover {
+  border-color: deeppink;
+}
+
+.cardImg {
+  max-width: 300px;
+  max-height:60%;
+  
+}
+
+video {
+  width: 100%;
+  max-height: 600px;
+}
+
+.videoWrapper  {
+  max-height: 600px;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content span {
+  margin: 30px 15px 7px 86px;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
